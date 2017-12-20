@@ -67,3 +67,6 @@ end
 
 # Add Simpleform
 gem 'simple_form'
+
+# Add devise gem for user authentication
+gem 'devise'
