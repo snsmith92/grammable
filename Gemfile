@@ -71,3 +71,12 @@ gem 'simple_form'
 
 # Add devise gem for user authentication
 gem 'devise'
+
+# Add carrierwave gem for file and image upload
+gem 'carrierwave', '~> 1.0'
+
+# Authentication gem
+gem 'figaro'
+
+# Allow carrierwave to communicate with Amazon S3
+gem "fog-aws"
