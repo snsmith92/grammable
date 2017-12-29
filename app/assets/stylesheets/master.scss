@@ -13,8 +13,8 @@ body {
   border-bottom-width: 1px;
   border-bottom-style: solid;
   color: white;
-  height: 75px;
-  padding-top: 15px;
+  height: auto;
+  padding: 15px;
 }
 
 .navbar .add a {
@@ -38,6 +38,10 @@ body {
 .brand a {
   text-decoration: none;
   color: #f7f9fc;
+}
+
+.navbar-toggler-icon {
+  color: white;
 }
 
 .card {

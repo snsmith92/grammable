@@ -13,21 +13,38 @@
 
   <body>
 
+
+
+<!--     <nav class="navbar navbar-toggleable-md bg-faded fixed-top">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="#">Grammable</a>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="#">Features</a>
+          <a class="nav-item nav-link" href="#">Pricing</a>
+          <a class="nav-item nav-link disabled" href="#">Disabled</a>
+        </div>
+      </div>
+    </nav> -->
+
     <div class="navbar fixed-top">
       <div class = "container">
-          <div class="brand float-left">
-            <%= link_to "Grammable", root_path %>
-          </div>
-          <div class="add float-right">
-            <% if current_user %>
-              Welcome, <%= current_user.email %>.&nbsp;&nbsp;
-              <%= link_to "New Gram", new_gram_path, class: 'btn btn-secondary' %> &nbsp;&nbsp;
-              <%= link_to "Sign out", destroy_user_session_path, method: :delete, class: 'btn btn-danger' %>
-            <% else %>
-              <%= link_to "Log In", new_user_session_path, class: 'btn btn-secondary' %> &nbsp;&nbsp;
-              <%= link_to "Sign Up", new_user_registration_path, class: 'btn btn-primary'%>
-            <% end %>
-          </div>
+        <div class="brand float-left">
+          <%= link_to "Grammable", root_path %>
+        </div>
+        <div class="add float-right">
+          <% if current_user %>
+            Welcome, <%= current_user.email %>.&nbsp;&nbsp;
+            <%= link_to "New Gram", new_gram_path, class: 'btn btn-secondary' %> &nbsp;&nbsp;
+            <%= link_to "Sign out", destroy_user_session_path, method: :delete, class: 'btn btn-danger' %>
+          <% else %>
+            <%= link_to "Log In", new_user_session_path, class: 'btn btn-secondary' %> &nbsp;&nbsp;
+            <%= link_to "Sign Up", new_user_registration_path, class: 'btn btn-primary'%>
+          <% end %>
+        </div>
         <br class="clear-fix" />
       </div>
     </div>
