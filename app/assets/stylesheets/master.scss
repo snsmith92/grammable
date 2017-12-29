@@ -35,6 +35,11 @@ body {
   letter-spacing: 1.5px;
 }
 
+.brand a {
+  text-decoration: none;
+  color: #f7f9fc;
+}
+
 .card {
   background-color: #fff;
   border-radius: .25rem;
@@ -52,6 +57,13 @@ body {
   font-size: 16px;
 }
 
+.caption {
+  margin-left: 20px;
+  margin-top: 10px;
+  color: black;
+  font-size: 16px;
+}
+
 .card p, .card, .message {
   font-size: 16px;
   margin: 20px;
@@ -61,8 +73,104 @@ body {
   color: #326288;
 }
 
-.card.form {
+.btn-secondary {
+  color: #326288;
+  font-family: 'Nunito', sans-serif;
+}
+
+.btn-primary, .btn-primary:hover {
+  background-color: #326288;
+  color: white;
+  border-color: #234560;
+  font-family: 'Nunito', sans-serif;
+}
+
+.btn-primary:active {
+  background-color: white;
+  color: #326288;
+  border-color: #326288;
+}
+
+.form {
+  background-color: #fff;
+  border-radius: .25rem;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+  border: 1px solid #e8e8e8;
+  margin-top: 40px;
   padding: 20px;
 }
 
+.label {
+  font-size: 18px;
+}
 
+.input {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.input.boolean {
+  margin-left: 18px;
+  margin-top: 5px;
+}
+
+.input.boolean label {
+  margin-top: 5px;
+  line-height: 44px;
+}
+
+.gram-actions{
+  margin-left: auto;
+  margin-right: 20px;
+}
+
+
+.comments {
+  padding: 10px;
+  padding-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  display: inline-block;
+  position: relative;
+  width: auto;
+  height: auto;
+  background-color: rgba(50, 98, 136, 0.2);
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+
+}
+.tri-right.border.left-top:before {
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: -40px;
+  right: auto;
+  top: -8px;
+  bottom: auto;
+  border: 32px solid;
+  border-color: #666 transparent transparent transparent;
+}
+.tri-right.left-top:after{
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: -20px;
+  right: auto;
+  top: 0px;
+  bottom: auto;
+  border: 22px solid;
+  border-color: rgba(50, 98, 136, 0.2) transparent transparent transparent;
+}
+
+.comment-handle {
+  font-weight: 150%;
+  color: #326288;
+}
+
+.comment {
+  margin-top: 5px;
+}
