@@ -1,1 +1,68 @@
 @import "bootstrap";
+
+body {
+  background-color: white;
+  font-family: 'Nunito', sans-serif;
+  padding-top: 70px;
+}
+
+
+.navbar {
+  background-color: #326288;
+  border-bottom-color: #edeeee;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  color: white;
+  height: 75px;
+  padding-top: 15px;
+}
+
+.navbar .add a {
+  font-weight: bold;
+  color: #d2d4d8;
+  font-size: 16px;
+  padding-left: 10px;
+}
+
+.navbar .add {
+  margin-top: 8px;
+}
+
+.brand {
+  color: #f7f9fc;
+  font-size: 30px;
+  font-family: 'Pacifico', cursive;
+  letter-spacing: 1.5px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: .25rem;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+  border: 1px solid #e8e8e8;
+  margin-top: 40px;
+  padding: 0;
+}
+
+.handle {
+  margin-left: 20px;
+  margin-top: 10px;
+  color: #326288;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.card p, .card, .message {
+  font-size: 16px;
+  margin: 20px;
+} 
+
+.navbar .add .btn-secondary {
+  color: #326288;
+}
+
+.card.form {
+  padding: 20px;
+}
+
+
